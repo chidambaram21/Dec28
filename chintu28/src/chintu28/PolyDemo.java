@@ -1,6 +1,6 @@
 package chintu28;
 
-class Bank {
+class Bank1 {
 	int balance;
 	void deposit(int amt) {
 		this.balance = this.balance + amt;
@@ -17,8 +17,8 @@ class Bank {
 
 	
 }
-class CanaraBank extends Bank {
-	public CanaraBank(int balance) {
+class CanaraBank2 extends Bank {
+	public CanaraBank2(int balance) {
 		this.balance = balance;
 	}
 	void deposit(int amt) {
@@ -41,8 +41,8 @@ class CanaraBank extends Bank {
 		System.out.println("FROm CanaraBank avl balance....." + this.balance);
 	}
 }
-class KotakBank extends Bank {
-	public KotakBank(int balance) {
+class KotakBank2 extends Bank1 {
+	public KotakBank2 (int balance) {
 		this.balance = balance;
 	}
 	void deposit(int amt) {
@@ -66,8 +66,8 @@ class KotakBank extends Bank {
 	}
 }
 
-class YesBank extends Bank {
-	public YesBank(int balance) {
+class YesBank2  extends Bank {
+	public YesBank2(int balance) {
 		this.balance = balance;
 	}
 	void deposit(int amt) {
@@ -88,7 +88,7 @@ class YesBank extends Bank {
 		}
 	}
 	void checkBalance() {
-		System.out.println("FROm YesBank avl balance....." + this.balance);
+		System.out.println("FROm YesBank1 avl balance....." + this.balance);
 	}
 }
 
